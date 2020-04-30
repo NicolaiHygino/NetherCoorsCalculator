@@ -1,0 +1,3 @@
+.dnc
+*.sqlite3
+__pycache__

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nether Coords Calculator</title>
+</head>
+<body>
+	<form method="post" action="result">
+		{% csrf_token %}
+		{{ form }}
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
